@@ -1,0 +1,12 @@
+vue/node_modules
+client/node_modules
+client/node_modules/.cache
+/node_modules
+vue/dist
+release/
+.idea/
+.vscode/
+.DS_Store
+.eslintcache
+client/.eslintcache
+node_modules/

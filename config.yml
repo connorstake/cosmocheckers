@@ -1,0 +1,19 @@
+accounts:
+  - name: alice
+    mnemonic: 'heavy page tape crane toilet mandate hotel keen elephant trade throw pizza bus negative actress title slide industry suit snack tattoo unhappy remain mistake'
+    coins: ["20000token", "200000000stake"]
+  - name: bob
+    coins: ["10000token", "100000000stake"]
+validator:
+  name: alice
+  staked: "100000000stake"
+client:
+  typescript:
+    path: "ts-client"
+  openapi:
+    path: "docs/static/openapi.yml"
+  vuex:
+    path: "vue/src/store"
+faucet:
+  name: bob
+  coins: ["5token", "100000stake"]
